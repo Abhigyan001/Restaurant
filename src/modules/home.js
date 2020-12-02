@@ -8,7 +8,7 @@ const Home = (() => {
     const div = document.createElement('div');
 
     const h2 = document.createElement('h2');
-    h2.innerText = 'Hi! Welcome to our Restaurant. We serve:' 
+    h2.innerText = 'Hi! Welcome to our Restaurant. We serve:';
 
     const h1 = document.createElement('h1');
     h1.innerHTML = ' <span>Breakfast</span> <br/> <span>Lunch</span> <br/> <span>Dinner</span>';
