@@ -6,7 +6,7 @@
 
 ## Landing page
 
-![screenshot](img/ss2.PNG)
+![screenshot](./img/ss2.PNG)
 
 ## Technologies used:
 - JavaScript programming language
