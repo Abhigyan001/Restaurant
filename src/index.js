@@ -1,1 +1,2 @@
-console.log("Hello");
+import Nav from './modules/nav';
+console.log("hello");
