@@ -8,6 +8,10 @@
 
 ![screenshot](./dist/img/ss2.PNG)
 
+## Live Link
+
+[Live demo](https://ghyrestaurant.netlify.app/)
+
 ## Technologies used:
 - JavaScript programming language
 - Bootstrap
