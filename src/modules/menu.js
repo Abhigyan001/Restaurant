@@ -1,5 +1,5 @@
 const Menu = (() => {
-  const menuList = [
+  const menuItems = [
     {
       title: 'Breakfast',
       items: ['Cold Cereal', 'Cottage Cheese', 'Oatmeal', 'Brocolli Rabe', 'Luger Burger'],
@@ -34,13 +34,13 @@ const Menu = (() => {
     return section;
   };
 
-  const setMenu = () => {
+  const seeMenu = () => {
     const content = document.getElementById('content');
 
     const main = document.createElement('main');
     main.classList.add('menu-main');
 
-    menuList.forEach(menu => {
+    menuItems.forEach(menu => {
       const section = addSection(menu);
       main.appendChild(section);
     });
@@ -48,12 +48,12 @@ const Menu = (() => {
     content.appendChild(main);
   };
 
-  const setMenuActive = () => {
-    const liMenu = document.getElementById('menu');
-    liMenu.classList.add('active');
+  const seeMenuActive = () => {
+    const newMenu = document.getElementById('menu');
+    newMenu.classList.add('active');
   };
 
-  return { setMenu, setMenuActive };
+  return { seeMenu, seeMenuActive };
 })();
 
 export default Menu;
