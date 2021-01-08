@@ -38,7 +38,7 @@ And run the app on your local machine in the browser of your choice.
 👤 **Abhigyan Mahanta**
 
 - Github: [@githubhandle](https://github.com/Abhigyan001)
-- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/abhigyan001/)
+- Linkedin: [Linkedin Profile](https://www.linkedin.com/in/abhigyanmahanta/)
 
 ## Show your support
 
